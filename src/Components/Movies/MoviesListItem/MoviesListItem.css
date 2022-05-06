@@ -1,0 +1,60 @@
+
+.moviesListItem {
+    margin: 0 10px;
+    width: 280px;
+    position: relative;
+}
+
+.moviesListItemHoverMenu {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background: rgba(0, 0, 30, 0.71);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    z-index: 1000;
+
+
+}
+@media (max-width: 768px) {
+    .moviesListItemHoverMenu{
+        display: flex;
+    }
+
+}
+
+.moviesListItemHoverMenu svg {
+    color: #ffdddd;
+}
+
+.moviesListItem:hover .moviesListItemHoverMenu {
+    display: flex;
+
+}
+
+.moviesListItemHoverMenu svg:hover {
+    color: #ff0000;
+}
+
+.moviesListItem img {
+    width: 280px;
+    height: 350px;
+
+}
+
+.moviesListItem p {
+    text-align: center;
+    /*margin-top: 5px;*/
+    font-size: 18px;
+    font-weight: 600;
+    background: #040025;
+    padding: 5px;
+
+}
+
+.moviesListItem:hover {
+
+
+}
